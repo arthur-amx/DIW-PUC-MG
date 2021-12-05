@@ -85,6 +85,37 @@ nav .nav-tabs li a {
   opacity: 1; /* Firefox */
 }
 
+.main-search {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 800px;  
+    padding: 0 10px;
+    margin-top: 50px;
+    border-bottom: medium solid rgba(70, 68, 68, 0.13);
+}
+
+.search-li {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.search-li a{
+	color: blue;
+    text-decoration: underline;
+}
+
+.search-li p {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+.search-li h3 {
+    font-size: 1.75rem;
+}
+
 .container { 
   display: flex;
   flex-direction: column;
